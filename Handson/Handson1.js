@@ -70,7 +70,7 @@ db.employee.find({overallExp:{$gt:"2"}})
 { "_id" : ObjectId("62bdc8457f8ca4cbf5012134"), "firstName" : "Jame", "lastName" : "Doe", "salary" : "35000", "department" : "Accounts", "lastCompany" : "Z", "lastSalary" : "15000", "overallExp" : "2", "contactInfo" : "123567890", "yearGrad" : "2019", "gradStream" : "EEE" }
 { "_id" : ObjectId("62bdc8467f8ca4cbf5012138"), "firstName" : "Jame", "lastName" : "Doe", "salary" : "35000", "department" : "Accounts", "lastCompany" : "Z", "lastSalary" : "15000", "overallExp" : "2", "contactInfo" : "123567890", "yearGrad" : "2019", "gradStream" : "EEE" }
 
-// Query the collection ""employee"" and update the salary of the employee whose salary is greater than 70000 to 65000.
+// Query the collection ""employee"" and update the salary of the employee whose salary is greater than 30000 to 65000.
 > db.employee.updateMany({salary:{$gt:"30000"}},{$set:{salary:"65000"}})
 { "acknowledged" : true, "matchedCount" : 6, "modifiedCount" : 6 }
 > db.employee.find({salary:"65000"})
