@@ -1,3 +1,3 @@
 ### Packages
 #### npm i mongoose
-#### npm i nodemon
+#### npm i nodemon -g
