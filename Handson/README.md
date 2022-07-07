@@ -3,12 +3,12 @@
 
 Create a database , give it name like ""Human_Resource"". Create a collection inside this named ""employee""
 
-Query the collection ""employee"" and list all the documents
-Query the collection ""employee"" and list the employees who are having salary more than 30000
-Query the collection ""employee"" and list the employees who are having experience more than 2 years.
-Query the collection ""employee"" and list the employees who are graduated after 2015 and having experience more than 1 year 
-Query the collection ""employee"" and update the salary of the employee whose salary is greater than 70000 to 65000.
-Delete all the documents from ""employee"" where last company is Y"
+1. Query the collection ""employee"" and list all the documents
+2. Query the collection ""employee"" and list the employees who are having salary more than 30000
+3. Query the collection ""employee"" and list the employees who are having experience more than 2 years.
+4. Query the collection ""employee"" and list the employees who are graduated after 2015 and having experience more than 1 year 
+5. Query the collection ""employee"" and update the salary of the employee whose salary is greater than 70000 to 65000.
+6. Delete all the documents from ""employee"" where last company is Y"
 
 ### Handson 1
 Do all the above queries using Mongo Shell
